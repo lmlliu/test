@@ -1,0 +1,127 @@
+* {
+    margin:0;
+    padding:0;
+    /*字体笔画精细�?*/
+    -webkit-text-stroke-width: 0px;
+    -moz-text-stroke-width: 0px;
+    -o-text-stroke-width: 0px;
+    -ms-text-stroke-width: 0px;
+    /*边框和内间距算在宽度和高度之�?*/
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -ms-box-sizing:border-box;
+}
+body {
+    font-family: "Microsoft Yahei", "simsun", "Arial";
+    background-color:#FFF;
+    font-size: 100%;
+    color: #000;
+}
+a {
+    color: #000;
+    font-size: 100%;
+    text-decoration: none;
+    blr:expression(this.onFocus=this.blur());
+}
+input,select,textarea {
+    vertical-align:middle;
+    width: auto;
+    outline: none;
+    border:0;    
+}
+select {
+    appearance: normal;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+img {
+    vertical-align:middle;
+    border:0;
+    outline:none;
+}
+
+div, p, dl, dt, dd, ul, ol, li, h1,h2,h3,h4 {
+    display: block;
+    width: auto; 
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing:0px;
+    border: 0;
+}
+
+.page_center {
+    clear: both;
+    width: 700px;
+    margin-bottom: 12px;
+}
+
+/*头部区域*/
+
+.total{
+    width:300px;
+    height:300px;
+    border: 1px  #000 solid;
+}
+.xuanxiang{
+    width:300px;
+    height:30px;
+}
+.title1{
+    width:100px;
+    height:30px;
+    float: left;
+    border: 1px  #000 solid;
+}
+.title1 a:hover{
+    color: #FF00FF
+}
+.title2{
+    width:100px;
+    height:30px;
+    float: left;
+    border: 1px  #000 solid;
+    
+}
+.content{
+    width:100%;
+    height:300px;
+    background-color:  #FFF;
+}
+.news1{
+    
+    width:100%;
+    height:300px;
+    background-color:  #FFF;
+}
+.vidio1{
+    float: left;
+    width:100%;
+    height:300px;
+    background-color:  #FFF;
+}
+.music1{
+    float: left;
+    width:100%;
+    height:200px;
+    background-color:  #FFF;
+}
+.zhuce{
+    float: left;
+    width:100px;
+    height:20px;
+    border:1px #000 solid;
+} 
+.teeee{
+    width:300px;
+    height:200px;
+    border:1px #000 solid; 
+    float: left;
+}
